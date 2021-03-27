@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>photos</title>
+	<style>
+	body
+	{
+	background-color:grey;
+	}
+	table
+	{
+	margin:0px auto;
+	}
+	.name
+	{
+	text-align:center;
+	}
+	table .image
+	{
+	animation:rotate 4s linear 0s infinite normal;
+	border-spacing:20px;
+	padding:32px;
+	}
+	@keyframes rotate
+	{
+	0%
+	{
+	transform:perspective(300px) rotateZ(0deg);
+	}
+	100%
+	{
+	transform:perspective(300px) rotateZ(360deg);
+	}	
+	}	
+	</style>
+</head>
+<body>
+	<table>
+	<tr>
+	<td class="image"><img src="wood.jpg" width="205px" height="205px"></td>
+	<td class="image"><img src="shiva.jpg" width="205px" height="205px"></td>
+	<td class="image"><img src="temple image.jpg" width="205px" height="205px"></td>
+	<td class="image"><img src="news.jpg" width="205px" height="205px"></td>
+	</tr>
+	<tr>
+	<td class="name">image-1</td>
+	<td class="name">image-2</td>
+	<td class="name">image-3</td>
+	<td class="name">image-4</td>
+	</tr>
+	<tr>
+	<td class="image"><img src="apple.jpg" width="205px" height="205px"></td>
+	<td class="image"><img src="banana.jpg" width="205px" height="205px"></td>
+	<td class="image"><img src="mango.jpg" width="205px" height="205px"></td>
+	<td class="image"><img src="guava.jpg" width="205px" height="205px"></td>
+	</tr>
+	<tr>
+	<td class="name">image-5</td>
+	<td class="name">image-6</td>
+	<td class="name">image-7</td>
+	<td class="name">image-8</td>
+	</tr>
+	</table>
+</body>
+</html>
